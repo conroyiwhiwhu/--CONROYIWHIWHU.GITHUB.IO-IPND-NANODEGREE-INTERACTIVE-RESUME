@@ -1,4 +1,4 @@
-# nd-stage-5-interactive-resume
+# Project
 
 Stage 5: Choose Your Path
 
