@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="en-gb">
+<head>
+    <meta charset="utf-8">
+    <meta content=
+    "width=device-width,height=device-height, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"
+    name="viewport">
+    <meta content="en" name="language">
+    <meta content="front-end web development online resume project" name=
+    "title">
+    <meta content=
+    "online resume that uses html,css and javascript web development." name=
+    "description">
+    <meta content="onlineresume,html,css,jquery,javascript" name="keywords">
+
+    <title>Conroy Iwhiwhu | Interactive Resume</title>
+    <meta content="Conroy E. Iwhiwhu" name="developer">
+    <meta content="general" name="rating">
+    <link href="styles/design.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js">
+    </script>
+    <script src="scripts/helper.js">
+    </script>
+    <script src="http://maps.googleapis.com/maps/api/js?libraries=places" type=
+    "text/javascript">
+    </script>
+</head>
+
+<body>
+    <div id="main">
+        <div class="center-content clearfix" id="header">
+            <ul class='flex-box' id="topContacts">
+            </ul>
+        </div>
+
+
+        <div style='clear: both;'>
+        </div>
+
+
+        <div class='gray' id="education">
+            <h2>EDUCATION &amp; ACHIEVEMENTS</h2>
+        </div>
+
+
+        <div class='gray' id="onlineCourses">
+            <h2>ONLINE COURSES</h2>
+        </div>
+
+
+        <div class='gray' id="workExperience">
+            <h2>PROFESSIONAL EXPERIENCE</h2>
+        </div>
+
+
+        <div id="projects">
+            <h2>PROJECT EXPERIENCE</h2>
+        </div>
+
+
+        <div id="mapDiv">
+            <h2>PLACES I'VE LIVED AND WORKED</h2>
+        </div>
+
+
+        <div class='dark-gray' id="letsConnect">
+            <h2 class='orange center-text'>If I can be of any help:</h2>
+
+
+            <ul class="flex-box" id="footerContacts">
+            </ul>
+
+
+            <div class="coursework-license">
+                © <span class="license-text">Copyright Information</span>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/resumeBuilder.js">
+    </script>
+    <script type="text/javascript">
+        if (document.getElementsByClassName('flex-item').length === 0) {
+            document.getElementById('topContacts').style.backgroundColor = "#000000";
+        }
+        if (document.getElementsByTagName('h1').length === 0) {
+            document.getElementById('header').style.backgroundColor = "#000000";
+        }
+        if (document.getElementsByClassName('work-entry').length === 0) {
+            document.getElementById('workExperience').style.backgroundColor = "#000000";
+        }
+        if (document.getElementsByClassName('project-entry').length === 0) {
+            document.getElementById('projects').style.backgroundColor = "#000000";
+        }
+        if (document.getElementsByClassName('education-entry').length === 0) {
+            document.getElementById('education').style.backgroundColor = "#000000";
+        }
+        if (document.getElementsByClassName('online-entry').length === 0) {
+            document.getElementById('onlineEducation').style.backgroundColor = "#000000";
+        }
+        if (document.getElementsByClassName('flex-item').length === 0) {
+            document.getElementById('letsConnect').style.backgroundColor = "#000000";
+        }
+        if (document.getElementById('map') === null) {
+            document.getElementById('mapDiv').style.backgroundColor = "#484848";
+        }
+    </script>
+</body>
+</html>
