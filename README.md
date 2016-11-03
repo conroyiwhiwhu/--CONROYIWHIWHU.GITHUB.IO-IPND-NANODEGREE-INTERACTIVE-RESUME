@@ -1,10 +1,8 @@
-# Stage 5: Choose Your Path
+# IPND Stage 5: Choose Your Path Nanodegree Project
 
-Choose one of four paths (Front-End, Back-End, Mobile, or Data Analyst) 
-and complete a course and project of your choosing. Get a real sense 
-of the kind of work that each of these developers do daily. 
-All of the projects come straight from other Udacity courses or Nanodegree programs. 
-If you choose to enroll in the Nanodegree related to your path, 
-you will already have a jumpstart with credit for completing your chosen project.
+HTML CSS JavaScript jQuery
+Using jQuery, developed an interactive resume application that reads all data from a JSON file and then dynamically modifies the DOM to display the information. Further customized the project by personalizing the design using CSS.
 
-This project is a part of the Introduction to Programming Nanodegree
+ Nanodegree Project
+
+This project is a part of the Introduction to Programming Nanodegree 
