@@ -1,0 +1,8 @@
+title: Interactive Resume
+description: HTML CSS JavaScript jQuery
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-merlot
+
+gems:
+  - jekyll-mentions

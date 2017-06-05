@@ -1,6 +1,0 @@
-{
-  "name": "Interactive Resume",
-  "tagline": "HTML CSS JavaScript jQuery",
-  "body": "# IPND Stage 2: Interactive Resume\r\n\r\nUsing jQuery, developed an interactive resume application that reads all data from a JSON file and then dynamically modifies the DOM to display the information. Further customized the project by personalizing the design using CSS.\r\n\r\n Nanodegree Project",
-  "note": "Don't delete this file! It's used internally to help with page regeneration."
-}
